@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="59cf979cc24541df95b3e10b5d482e91" class="chart-container" style="width:1000px; height:460px;"></div>
+    <script>
+        var chart_59cf979cc24541df95b3e10b5d482e91 = echarts.init(
+            document.getElementById('59cf979cc24541df95b3e10b5d482e91'), 'white', {renderer: 'canvas'});
+        var option_59cf979cc24541df95b3e10b5d482e91 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "Percentage of one dose",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "world",
+            "data": [
+                {
+                    "name": "Croatia",
+                    "value": 45.28
+                },
+                {
+                    "name": "Austria",
+                    "value": 62.61
+                },
+                {
+                    "name": "France",
+                    "value": 69.76
+                },
+                {
+                    "name": "Greece",
+                    "value": 58.76
+                },
+                {
+                    "name": "Belgium",
+                    "value": 69.41
+                },
+                {
+                    "name": "Hungary",
+                    "value": 57.0
+                },
+                {
+                    "name": "Italy",
+                    "value": 72.91
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 43.64
+                },
+                {
+                    "name": "Iceland",
+                    "value": 71.47
+                },
+                {
+                    "name": "Denmark",
+                    "value": 71.39
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 61.75
+                },
+                {
+                    "name": "Germany",
+                    "value": 68.53
+                },
+                {
+                    "name": "Finland",
+                    "value": 70.4
+                },
+                {
+                    "name": "Latvia",
+                    "value": 45.21
+                },
+                {
+                    "name": "Ireland",
+                    "value": 70.52
+                },
+                {
+                    "name": "Sweden",
+                    "value": 67.24
+                },
+                {
+                    "name": "Poland",
+                    "value": 51.41
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 61.21
+                },
+                {
+                    "name": "Malta",
+                    "value": 77.12
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 52.58
+                },
+                {
+                    "name": "Romania",
+                    "value": 29.47
+                },
+                {
+                    "name": "Liechtenstein",
+                    "value": 61.35
+                },
+                {
+                    "name": "Norway",
+                    "value": 72.53
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 20.59
+                },
+                {
+                    "name": "Estonia",
+                    "value": 54.5
+                },
+                {
+                    "name": "Spain",
+                    "value": 74.72
+                },
+                {
+                    "name": "Portugal",
+                    "value": 81.83
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 70.3
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 54.82
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 65.41
+                }
+            ],
+            "roam": true,
+            "zoom": 1,
+            "showLegendSymbol": false,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Percentage of one dose"
+            ],
+            "selected": {
+                "Percentage of one dose": true
+            },
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "Percentage of people who have received one dose of COVID-19 vaccine in EU/EEA",
+            "subtext": "until week 41 2021",
+            "padding": 5,
+            "itemGap": 10,
+            "textStyle": {
+                "fontSize": 14
+            }
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "min": 80,
+                "color": "green"
+            },
+            {
+                "min": 70,
+                "max": 79.99,
+                "color": "limegreen"
+            },
+            {
+                "min": 60,
+                "max": 69.99,
+                "color": "lime"
+            },
+            {
+                "min": 50,
+                "max": 59.99,
+                "color": "yellow"
+            },
+            {
+                "min": 40,
+                "max": 49.99,
+                "color": "orange"
+            },
+            {
+                "min": 0,
+                "max": 39.99,
+                "color": "red"
+            }
+        ]
+    }
+};
+        chart_59cf979cc24541df95b3e10b5d482e91.setOption(option_59cf979cc24541df95b3e10b5d482e91);
+    </script>
+</body>
+</html>

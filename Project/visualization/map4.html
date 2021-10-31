@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="02f0c27e8c1047298776d8fd91da2985" class="chart-container" style="width:1000px; height:460px;"></div>
+    <script>
+        var chart_02f0c27e8c1047298776d8fd91da2985 = echarts.init(
+            document.getElementById('02f0c27e8c1047298776d8fd91da2985'), 'white', {renderer: 'canvas'});
+        var option_02f0c27e8c1047298776d8fd91da2985 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "Percentage of two doses(60+ senior)",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "world",
+            "data": [
+                {
+                    "name": "Croatia",
+                    "value": 66.13
+                },
+                {
+                    "name": "Austria",
+                    "value": 84.46
+                },
+                {
+                    "name": "France",
+                    "value": 83.51
+                },
+                {
+                    "name": "Greece",
+                    "value": 76.65
+                },
+                {
+                    "name": "Belgium",
+                    "value": 90.89
+                },
+                {
+                    "name": "Hungary",
+                    "value": 78.4
+                },
+                {
+                    "name": "Italy",
+                    "value": 84.89
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 65.03
+                },
+                {
+                    "name": "Iceland",
+                    "value": 101.71
+                },
+                {
+                    "name": "Denmark",
+                    "value": 99.27
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 82.72
+                },
+                {
+                    "name": "Finland",
+                    "value": 91.72
+                },
+                {
+                    "name": "Latvia",
+                    "value": 45.96
+                },
+                {
+                    "name": "Ireland",
+                    "value": 102.26
+                },
+                {
+                    "name": "Sweden",
+                    "value": 92.3
+                },
+                {
+                    "name": "Poland",
+                    "value": 71.53
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 68.92
+                },
+                {
+                    "name": "Malta",
+                    "value": 98.17
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 72.42
+                },
+                {
+                    "name": "Romania",
+                    "value": 32.17
+                },
+                {
+                    "name": "Norway",
+                    "value": 97.09
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 27.57
+                },
+                {
+                    "name": "Estonia",
+                    "value": 68.58
+                },
+                {
+                    "name": "Spain",
+                    "value": 93.75
+                },
+                {
+                    "name": "Portugal",
+                    "value": 94.94
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 78.18
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 90.94
+                }
+            ],
+            "roam": true,
+            "zoom": 1,
+            "showLegendSymbol": false,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Percentage of two doses(60+ senior)"
+            ],
+            "selected": {
+                "Percentage of two doses(60+ senior)": true
+            },
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "Percentage of senior people(60+) who have received two doses of COVID-19 vaccine in EU/EEA",
+            "subtext": "until week 41 2021",
+            "padding": 5,
+            "itemGap": 10,
+            "textStyle": {
+                "fontSize": 12
+            }
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "min": 90,
+                "color": "green"
+            },
+            {
+                "min": 80,
+                "max": 89.99,
+                "color": "limegreen"
+            },
+            {
+                "min": 70,
+                "max": 79.99,
+                "color": "yellow"
+            },
+            {
+                "min": 60,
+                "max": 69.99,
+                "color": "orange"
+            },
+            {
+                "min": 50,
+                "max": 59.99,
+                "color": "red"
+            },
+            {
+                "min": 0,
+                "max": 49.99,
+                "color": "firebrick"
+            }
+        ]
+    }
+};
+        chart_02f0c27e8c1047298776d8fd91da2985.setOption(option_02f0c27e8c1047298776d8fd91da2985);
+    </script>
+</body>
+</html>

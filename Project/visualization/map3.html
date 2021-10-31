@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="126dc417a38f4c76bcde66de3014ef03" class="chart-container" style="width:1000px; height:460px;"></div>
+    <script>
+        var chart_126dc417a38f4c76bcde66de3014ef03 = echarts.init(
+            document.getElementById('126dc417a38f4c76bcde66de3014ef03'), 'white', {renderer: 'canvas'});
+        var option_126dc417a38f4c76bcde66de3014ef03 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "Percentage of one dose(60+ senior)",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "world",
+            "data": [
+                {
+                    "name": "Croatia",
+                    "value": 70.33
+                },
+                {
+                    "name": "Austria",
+                    "value": 89.24
+                },
+                {
+                    "name": "France",
+                    "value": 91.77
+                },
+                {
+                    "name": "Greece",
+                    "value": 79.66
+                },
+                {
+                    "name": "Belgium",
+                    "value": 93.87
+                },
+                {
+                    "name": "Hungary",
+                    "value": 81.18
+                },
+                {
+                    "name": "Italy",
+                    "value": 93.31
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 67.03
+                },
+                {
+                    "name": "Iceland",
+                    "value": 103.93
+                },
+                {
+                    "name": "Denmark",
+                    "value": 99.14
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 86.78
+                },
+                {
+                    "name": "Finland",
+                    "value": 95.39
+                },
+                {
+                    "name": "Latvia",
+                    "value": 55.37
+                },
+                {
+                    "name": "Ireland",
+                    "value": 104.07
+                },
+                {
+                    "name": "Sweden",
+                    "value": 94.31
+                },
+                {
+                    "name": "Poland",
+                    "value": 77.62
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 76.16
+                },
+                {
+                    "name": "Malta",
+                    "value": 100.66
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 79.77
+                },
+                {
+                    "name": "Romania",
+                    "value": 36.42
+                },
+                {
+                    "name": "Norway",
+                    "value": 98.68
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 30.66
+                },
+                {
+                    "name": "Estonia",
+                    "value": 73.28
+                },
+                {
+                    "name": "Spain",
+                    "value": 99.71
+                },
+                {
+                    "name": "Portugal",
+                    "value": 103.99
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 82.11
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 93.67
+                }
+            ],
+            "roam": true,
+            "zoom": 1,
+            "showLegendSymbol": false,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Percentage of one dose(60+ senior)"
+            ],
+            "selected": {
+                "Percentage of one dose(60+ senior)": true
+            },
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "Percentage of senior people(60+) who have received one dose of COVID-19 vaccine in EU/EEA",
+            "subtext": "until week 41 2021",
+            "padding": 5,
+            "itemGap": 10,
+            "textStyle": {
+                "fontSize": 12
+            }
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "min": 90,
+                "color": "green"
+            },
+            {
+                "min": 80,
+                "max": 89.99,
+                "color": "limegreen"
+            },
+            {
+                "min": 70,
+                "max": 79.99,
+                "color": "yellow"
+            },
+            {
+                "min": 60,
+                "max": 69.99,
+                "color": "orange"
+            },
+            {
+                "min": 50,
+                "max": 59.99,
+                "color": "red"
+            },
+            {
+                "min": 0,
+                "max": 49.99,
+                "color": "firebrick"
+            }
+        ]
+    }
+};
+        chart_126dc417a38f4c76bcde66de3014ef03.setOption(option_126dc417a38f4c76bcde66de3014ef03);
+    </script>
+</body>
+</html>
